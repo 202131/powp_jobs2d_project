@@ -18,6 +18,6 @@ public class SelectChangeVisibleOptionListener implements ActionListener {
 			controlledWindow.setVisible(false);
 		} else {
 			controlledWindow.setVisible(true);
-		}
+		}this.controlledWindow.setVisible(false);
 	}
 }

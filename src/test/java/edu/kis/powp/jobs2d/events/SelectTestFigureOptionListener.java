@@ -19,10 +19,8 @@ public class SelectTestFigureOptionListener implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		DrawerFeature.getDrawerController().clearPanel();
 	    if(e.getActionCommand().equals("Figure Joe 1")){
-            DrawerFeature.getDrawerController().clearPanel();
             FiguresJoe.figureScript1(driverManager.getCurrentDriver());
         }else if(e.getActionCommand().equals("Pat Tern")){
-	        DrawerFeature.getDrawerController().clearPanel();
             FiguresJoe.figureScript2(driverManager.getCurrentDriver());
         }else System.out.println("Driver wasn't picked.");
 
